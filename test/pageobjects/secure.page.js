@@ -10,7 +10,7 @@ class SecurePage extends Page {
      * define selectors using getter methods
      */
     get flashAlert () {
-        return $('error-hint create-pseudo-before create-pseudo-after');
+        return $('.error-hint.create-pseudo-before.create-pseudo-after');
     }
 }
 

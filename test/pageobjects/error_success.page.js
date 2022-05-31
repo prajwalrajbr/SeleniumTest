@@ -1,6 +1,3 @@
-
-
-
 const Page = require('./page');
 
 /**

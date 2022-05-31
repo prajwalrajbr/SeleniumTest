@@ -16,7 +16,7 @@ class SignUpPage extends Page {
     }
 
     get btnSubmit () {
-        return $('button[type="submit"]');
+        return $('#register_email_submit');
     }
 
     /**
@@ -26,7 +26,7 @@ class SignUpPage extends Page {
     async signup (username, password) {
         await this.inputUsername.setValue(username);
         await this.inputPassword.setValue(password);
-        this.btnSubmit.click();
+        await this.btnSubmit.click();
     }
 
     /**
